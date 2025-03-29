@@ -1,0 +1,28 @@
+@charset "UTF-8";
+p{
+  text-size-adjust: center;
+}
+
+ul#album-fotos{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+
+ul#album-fotos li{
+    float: left;
+    width: 20px;
+    height: 200px;
+    margin: 10px;
+    border: solid black;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgbs(0,0,0,4);
+}
+
+
+ul#album-fotos li#fotos01{
+    background: url(".amor/IMG-20240906-WA0484.jpg");
+}
